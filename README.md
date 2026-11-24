@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/zelotadonia-lang/seventeen-syllables-debugging/rank.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
 [![reward](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/zelotadonia-lang/seventeen-syllables-debugging/reward.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
 
-One haiku about debugging, three lines in 5-7-5. Two threads race for the same spot, one overwrites the other, and the bank pays it twice.
+One haiku about debugging, three lines in 5-7-5. Prod read the dev key, all our secrets wore test names, and we demoed them live.
 
 ```
-Two threads race for first
-one overwrites the other
-the bank pays it twice
+Prod read the dev key
+all our secrets wore test names
+we demoed them live
 ```
 
 ## Run it
@@ -18,7 +18,9 @@ the bank pays it twice
 python3 main.py
 ```
 
-This writes the haiku to `/output/entry.txt`, deterministically: every run produces the same 74 bytes.
+This writes the haiku to `/output/entry.txt`, deterministically: every run produces the same 73 bytes.
+
+Round 3 entry: winner of a 12-candidate blind tournament, a new concept after round 2 placed 444 of 2,958.
 
 ---
 
