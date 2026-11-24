@@ -4,12 +4,12 @@
 [![rank](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/zelotadonia-lang/seventeen-syllables-debugging/rank.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
 [![reward](https://make.fun/badge/u-irvan-motion-seventeen-syllables-of-debugging-d194b605/zelotadonia-lang/seventeen-syllables-debugging/reward.svg)](https://make.fun/bounty/u-irvan-motion-seventeen-syllables-of-debugging-d194b605?utm_source=github&utm_medium=readme&utm_campaign=u-irvan-motion-seventeen-syllables-of-debugging-d194b605)
 
-One haiku about debugging, three lines in 5-7-5. A null took a name, the logs show no trace of its owner, and the last line names who wrote the login.
+One haiku about debugging, three lines in 5-7-5. Two threads race for the same spot, one overwrites the other, and the bank pays it twice.
 
 ```
-The null took my name
-the logs show no trace of me
-I wrote the login
+Two threads race for first
+one overwrites the other
+the bank pays it twice
 ```
 
 ## Run it
@@ -18,7 +18,7 @@ I wrote the login
 python3 main.py
 ```
 
-This writes the haiku to `/output/entry.txt`, deterministically: every run produces the same 68 bytes.
+This writes the haiku to `/output/entry.txt`, deterministically: every run produces the same 74 bytes.
 
 ---
 
